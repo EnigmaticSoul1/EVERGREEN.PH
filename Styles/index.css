@@ -1,0 +1,143 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.thin-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.general-section {
+  padding: 128px 48px 128px 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #36cc28;
+  color: #fff;
+}
+
+.general-info {
+  width: 1fr;
+}
+
+.check-products {
+  margin-top: 32px;
+  padding: 16px 48px 16px 48px;
+  background-color: #36cc28;
+  border-style: solid;
+  border-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.check-products:hover {
+  background-color: #fff;
+  color: #36cc28;
+}
+
+.general-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 2fr;
+}
+
+.general-image {
+  width: 90%;
+  padding: 50px;
+  transition: 0.15s;
+}
+
+.general-image:hover {
+  width: 95%;
+}
+
+.story-section {
+  padding: 128px 48px 128px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cf8700;
+  color: #fff;
+}
+
+.story-header {
+  padding-bottom: 50px;
+}
+
+.partial-story {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.story-text {
+  width: 2fr;
+}
+
+.story-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1fr;
+}
+
+.story-image {
+  width: 300px;
+  padding: 50px;
+}
+
+
+@media (max-width: 800px) {
+  .flex-row {
+    flex-direction: column-reverse;
+  }
+
+  .flex-row-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .story-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .general-section {
+    flex-direction: column-reverse;
+    padding: 64px 48px 64px 48px;
+  }
+
+  .general-info {
+    text-align: center;
+  }
+
+  .general-image {
+    width: 60%;
+  }
+
+  .general-image:hover {
+    width: 65%;
+  }
+}

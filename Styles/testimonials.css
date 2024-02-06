@@ -1,0 +1,90 @@
+body {
+  background-image: url('../Images/Products/Grass\ Background.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.page-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 48px 64px 48px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.page-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 12vw 128px 12vw;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 36px;
+  margin-bottom: 32px;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.profile-picture {
+  width: 200px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.customer-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.customer-detail {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #36cc28;
+}
+
+.stars {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 16px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.customer-review {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #36cc28;
+  text-align: justify;
+}

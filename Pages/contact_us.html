@@ -1,0 +1,101 @@
+<html lang="en-us">
+  <head>
+    <title>Contact Us | EVERGREEN.PH</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../Styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="../Styles/contact_us.css">
+
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- Webpage Header -->
+    <header>
+      <div class="logo-container">
+        <img class="evergreen-logo" src="../Images/Header/Evergreen Logo (Light Blue).png">
+        <p class="evergreen-title">EVERGREEN</p>
+      </div>
+
+      <!-- Header Links -->
+      <nav class="nav-bar">
+        <input type="checkbox" class="toggle-menu">
+        <div class="hamburger-button">
+          <img class="hamburger-sprite" src="../Images/Header/Hamburger Menu.png">
+        </div>
+
+        <div class="menu">
+          <a class="nav-bar-link" href="../index.html">About Us</a>
+          <a class="nav-bar-link" href="../Pages/products.html">Products</a>
+          <a class="nav-bar-link" href="../Pages/gallery.html">Gallery</a>
+          <a class="nav-bar-link" href="../Pages/testimonials.html">Testimonials</a>
+          <a class="nav-bar-link" id="current-page" href="../Pages/contact_us.html">Contact Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="contact-section">
+      <form class="contact-form" action="mailto:email.evergreen.ph@gmail.com" method="post">
+        <h1 class="contact-header">Contact Us</h1>
+
+        <div class="name-form">
+          <div class="form-field">
+            <label class="form-label" for="first-name">First Name</label>
+            <input class="text-box" type="text" id="first-name" required>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="middle-name">Middle Name</label>
+            <input class="text-box" type="text" id="middle-name" required>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="last-name">Last Name</label>
+            <input class="text-box" type="text" id="last-name" required>
+          </div>
+        </div>
+
+        <div class="contact-details-form">
+          <div class="form-field">
+            <label class="form-label" for="email">E-mail Address</label>
+            <input class="text-box" type="email" id="email" placeholder="sample@domain.com" required>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="mobile-no">Mobile Number</label>
+            <input class="text-box" type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" id="mobile-no" placeholder="XXX-YYY-ZZZZ" required>
+          </div>
+        </div>
+
+        <div class="message-form">
+          <div class="form-field">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="message-box" id="message" required></textarea>
+          </div>
+        </div>
+
+        <div class="form-buttons">
+          <input class="submit-button" type="submit">
+          <input class="reset-button" type="reset">
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="about-company">
+        <p class="about-text">Imported, pure, naturally organic, fair trade certified teas, sold in oversized tea bags and loose leaf. Our tea bags allow plenty of room for the tea leaves to swirl around and give their full potential. Each tea bag could yield more than a cup. The loose leaves are packed in small batches to give you excellent fresh teas everytime.</p>
+        <div class="logo-container-footer">
+          <img class="evergreen-logo" src="../Images/Header/Evergreen Logo (White).png">
+          <p class="evergreen-title-footer">EVERGREEN</p>
+        </div>
+      </div>
+      <nav class="footer-nav-links">
+        <a class="footer-nav-link" href="../index.html">About Us</a>
+        <a class="footer-nav-link" href="../Pages/products.html">Products</a>
+        <a class="footer-nav-link" href="../Pages/gallery.html">Gallery</a>
+        <a class="footer-nav-link" href="../Pages/testimonials.html">Testimonials</a>
+        <a class="footer-nav-link" href="../Pages/contact_us.html">Contact Us</a>
+      </nav>
+    </footer>
+  </body>
+</html>
